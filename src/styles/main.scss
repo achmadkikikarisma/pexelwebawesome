@@ -1,0 +1,433 @@
+// color->
+
+$primary:#000000;
+$secondary:#ffff;
+$disabled:#F2F2F2;
+
+@font-face{
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Black.ttf");
+}
+@font-face{
+  font-family: "Poppins Light";
+  src: url("../fonts/Poppins-Light.ttf");
+}
+@font-face{
+  font-family: "Poppins Medium";
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face{
+  font-family: "Poppins Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face{
+  font-family: "Circe Regular";
+  src: url("../fonts/Circe-Regular.ttf");
+}
+@font-face{
+  font-family: "Circe Bold";
+  src: url("../fonts/Circe-Bold.ttf");
+}
+@font-face{
+  font-family: "Circe ExtraBold";
+  src: url("../fonts/Circe-ExtraBold.ttf");
+}
+@font-face{
+  font-family: "Circe ExtraLight";
+  src: url("../fonts/Circe-ExtraLight.ttf");
+}
+@font-face{
+  font-family: "Circe Light";
+  src: url("../fonts/Circe-Light.ttf");
+}
+@font-face{
+  font-family: "Circe Thin";
+  src: url("../fonts/Circe-Thin.ttf");
+}
+
+.navigation{
+  margin: 0 auto;
+  width: 100%;
+  position: fixed;
+  padding-top: 0px;
+  background-color: $secondary;
+  position: fixed;
+  z-index: 300;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: $disabled;
+  
+  .nav-link{
+    // color: $primary !important;
+    font-family: "Circe Regular";
+    padding-top: 40px ;
+    color: #ADADAD;
+    &:hover{
+      color: $primary !important;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .logo{
+    padding-top: 1rem;
+    width: 20vw;
+    height: auto;
+  } 
+  .nav-link{
+    // color: $primary !important;
+    font-family: "Circe Regular";
+    padding-top: 40px ;
+    color: #ADADAD;
+    font-size: 12px;
+    &:hover{
+      color: $primary !important;
+      
+    }
+  }
+}
+
+.tagline{
+  font-family: "Circe Light";
+  padding-top: 200px;
+  font-size: 52px;
+  line-height: normal;
+}
+.weare{
+  font-family: "Circe Light";
+  font-size: 20px;
+}
+@media (max-width: 400px){
+  .tagline{
+    font-family: "Circe Light";
+    padding-top: 200px;
+    font-size: 24px;
+    line-height: normal;
+  }
+  .weare{
+    font-family: "Circe Light";
+    font-size: 18px;
+  }
+}
+.contact-us{
+  margin-top: 20px;
+  width: 180px;
+  height: 70px;
+  background-color: $primary;
+  color: $secondary;
+  border: none;
+  font-size: 16px;
+  font-family: "Circe Bold";
+  &:hover{
+    color: $primary;
+    background-color: $secondary;
+    border-style: solid;
+    border-color: $primary;
+    transition: ease 0.3s;
+  }
+}
+.team1{
+  position: relative;
+  width: 100%;
+}
+.section1{
+  width: 100%;
+  padding-top: 10%;
+
+}
+.team2{
+  width: 90%;
+}
+.title{
+  font-size: 24px;
+  font-family: "Circe Regular";
+  line-height: 2.5rem;
+  text-align: left;
+}
+.team2-text{
+  font-family: "Circe Light";
+  text-align: left;
+  font-size: 16px;  
+  line-height: 2rem;
+}
+@media (max-width: 700px){
+  .team2{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    font-size: 18px;
+    font-family: "Circe Regular";
+    line-height: 2.5rem;
+    text-align: center;
+  }
+  .team2-text{
+    font-family: "Circe Light";
+    text-align: left;
+    font-size: 16px;  
+    line-height: 2rem;
+    text-align: center;
+  }
+
+}
+.sectiontwo{
+  padding-top: 8%;
+}
+.title-pexel{
+  padding-top: 5%;
+  font-family: "Circe Regular";
+  font-size: 28px;
+  text-align: right;
+  margin-bottom: -3%;
+}
+.title-desc{
+  font-size: 16px;
+  padding-bottom: 3% ;
+  font-family: "Circe Light";
+  text-align: right;
+  padding-top: -10%;
+
+}
+.title-service{ 
+  font-family: "Circe Regular";
+  font-size: 20px;
+}
+.description-service{
+  font-family: "Circe Light";
+  line-height: 2rem;
+  text-align: center;
+}
+.icon-services{
+  width: 15%;
+  padding-bottom: 3%;
+}
+.row-flex{
+  display: flex !important;
+  padding-left: 10%;
+  overflow-x: auto;
+}
+@media (max-width: 700px){
+  .title-pexel{
+    padding-top: 1%;
+    font-family: "Circe Regular";
+    font-size: 24px;
+    text-align: center;
+  }
+  .title-service{ 
+    font-family: "Circe Regular";
+    font-size: 18px;
+  }
+  .description-service{
+    font-family: "Circe Light";
+    line-height: 2rem;
+    text-align: center;
+    font-size: 16px;
+  }
+  .title-desc{
+    font-size: 16px;
+    padding-bottom: 3% ;
+    font-family: "Circe Light";
+    text-align: center;
+  }
+}
+
+.sectionthree{
+  padding-top: 10%;
+  padding-right: 5%;
+}
+.icon-process{
+  width: 7rem;
+  height: 7rem;
+  padding-bottom: 3%;
+  float: left;
+}
+.description-process{
+  text-align: left;
+  font-family: "Circe Light";
+  overflow: auto;
+  width: 210px;
+  color:#9B9B9B;
+}
+.title-process{
+  padding-bottom: 5%;
+  font-family: "Circe Regular";
+  font-size: 28px;
+  text-align: left;
+  padding-left: 10%;
+}
+.title-process-1{
+  font-size: 18px;
+  font-family: "Circe Regular";
+  display: inline-block;
+  text-align: left;
+}
+.title-process-desc{
+  font-size: 20px;
+  font-family: "Circe Light";
+}
+.process-desc{
+  font-size: 16px;
+  color: #9B9B9B;
+  font-family: "Circe Light";
+}
+@media (max-width: 400px){
+  .title-process{
+    padding-bottom: 5%;
+    font-family: "Circe Regular";
+    font-size: 24px;
+    text-align: left;
+    padding-left: 10%;
+  }
+  .title-process-desc{
+    font-size: 16px;
+    font-family: "Circe Light";
+  }
+
+  .process-desc{
+    color: #9B9B9B;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Circe Light";
+  }
+  .description-process{
+    font-size: 16px;
+    text-align: left;
+    font-family: "Circe Light";
+    resize: both;
+    overflow: auto;
+    color:#9B9B9B;
+  }
+}
+.sectionfour{
+  padding-top: 5%;
+
+}
+.ourteam{
+  width: 100%;
+}
+.meet{
+  font-family: "Circe Regular";
+  font-size: 28px;
+}
+.team-desc{
+  font-family: "Circe Light";
+  font-size: 20px;
+}
+.team-desc-1{
+  font-family: "Circe Light";
+  font-size: 16px;
+  padding-top: 5%;
+}
+@media (max-width: 1000px){
+  .ourteam{
+    width: 100%;
+  }
+  .meet{
+    padding-top: 10%;
+    font-family: "Circe Regular";
+    font-size: 24px;
+  }
+  .team-desc{
+    font-family: "Circe Light";
+    font-size: 18px;
+  }
+  .team-desc-1{
+    font-family: "Circe Light";
+    font-size: 16px;
+    padding-top: 5%;
+  }
+}
+.footer-text{
+  color: $secondary;
+  text-decoration: none;
+  font-family: "Circe Light";
+  &:hover{
+    color: $secondary;
+    text-decoration: none;
+  }
+}
+.col-footer-copy-right{
+  padding-top: 15%;
+  color: $primary;
+  text-decoration: none;
+  text-align: left;
+}
+.copy-right{
+  font-family: "Circe Light";
+  text-decoration: none;
+  color: $primary;
+  &:hover{
+    color: $primary;
+    text-decoration: none;
+  }
+}
+.footer-bg{
+  display: flex;
+  margin-top: 10%;
+  background-color: $primary;
+  width: 75%;
+  height: 150px;
+  padding-top: 5%;
+  margin-bottom: -10%;
+}
+@media (max-width: 1000px){
+  .footer-bg{
+    display: inline;
+    margin-top: 10%;
+    background-color: $primary;
+    width: 100%;
+    height: 210px;
+    padding-top: 5%;
+    margin-bottom: -20%;
+    > div{
+      padding: 10px;
+    }
+  }
+  .footer-text{
+    color: $secondary;
+    text-decoration: none;
+    font-family: "Circe Light";
+    
+    &:hover{
+      color: $secondary;
+      text-decoration: none;
+    }
+  }
+  .col-footer-copy-right{
+    text-decoration: none;
+    float: left;
+    background-color: $primary;
+    color: $secondary;
+  }
+  .copy-right{
+    font-family: "Circe Light";
+    text-decoration: none;
+    color: $secondary;
+    padding-top: 100px;
+    width: 100px;
+    &:hover{
+      color: $secondary;
+      text-decoration: none;
+    }
+  }
+  .footer-row{
+    margin: 0px;
+  }
+}
+
+@media (min-width: 768px) { 
+  .col-footer-mobile{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-footer-desktop{
+    display: none;
+    background-color: $primary;
+  }
+ }
+
+
+ 

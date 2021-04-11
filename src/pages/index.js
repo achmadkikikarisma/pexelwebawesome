@@ -98,7 +98,7 @@ MVP & Continuous Development</p>
     <div class="col">
     <img className="icon-process" src={design_icon}></img>
     <h6 className="title-process-1">Layout & Design</h6>
-    <p className="description-process">We analyze requirment and prepare the budget, team, and technical documentation</p>
+    <p className="description-process">Designer create an interactive design of your application with Sketch, Figma and Zeplin</p>
     </div><div class="col">
     <img className="icon-process" src={development_icon}></img>
     <h6 className="title-process-1">Development</h6>

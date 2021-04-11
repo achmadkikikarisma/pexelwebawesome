@@ -67,7 +67,7 @@ $disabled:#F2F2F2;
     }
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .logo{
     padding-top: 1rem;
     width: 20vw;
@@ -78,7 +78,7 @@ $disabled:#F2F2F2;
     font-family: "Circe Regular";
     padding-top: 40px ;
     color: #ADADAD;
-    font-size: 12px;
+    font-size: 10px;
     &:hover{
       color: $primary !important;
       
@@ -157,15 +157,14 @@ $disabled:#F2F2F2;
     align-items: center;
   }
   .title{
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Circe Regular";
-    line-height: 2.5rem;
     text-align: center;
   }
   .team2-text{
     font-family: "Circe Light";
     text-align: left;
-    font-size: 16px;  
+    font-size: 14px;  
     line-height: 2rem;
     text-align: center;
   }
@@ -182,7 +181,7 @@ $disabled:#F2F2F2;
   margin-bottom: -3%;
 }
 .title-desc{
-  font-size: 16px;
+  font-size: 20px;
   padding-bottom: 3% ;
   font-family: "Circe Light";
   text-align: right;
@@ -216,6 +215,7 @@ $disabled:#F2F2F2;
     font-family: "Circe Regular";
     font-size: 24px;
     text-align: center;
+    margin-bottom: -5%;
   }
   .title-service{ 
     font-family: "Circe Regular";
@@ -225,11 +225,11 @@ $disabled:#F2F2F2;
     font-family: "Circe Light";
     line-height: 2rem;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
   }
   .title-desc{
-    font-size: 16px;
-    padding-bottom: 3% ;
+    font-size: 14px;
+    padding-bottom: 10% ;
     font-family: "Circe Light";
     text-align: center;
   }
@@ -283,18 +283,18 @@ $disabled:#F2F2F2;
     padding-left: 10%;
   }
   .title-process-desc{
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Circe Light";
   }
 
   .process-desc{
     color: #9B9B9B;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Circe Light";
   }
   .description-process{
-    font-size: 16px;
+    font-size: 14px;
     text-align: left;
     font-family: "Circe Light";
     resize: both;
@@ -333,11 +333,11 @@ $disabled:#F2F2F2;
   }
   .team-desc{
     font-family: "Circe Light";
-    font-size: 18px;
+    font-size: 14px;
   }
   .team-desc-1{
     font-family: "Circe Light";
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 5%;
   }
 }
@@ -366,6 +366,7 @@ $disabled:#F2F2F2;
   }
 }
 .footer-bg{
+  padding-left: 0;
   display: flex;
   margin-top: 10%;
   background-color: $primary;
@@ -383,6 +384,7 @@ $disabled:#F2F2F2;
     height: 210px;
     padding-top: 5%;
     margin-bottom: -20%;
+    padding-left: 0;
     > div{
       padding: 10px;
     }

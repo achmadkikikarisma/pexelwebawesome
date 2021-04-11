@@ -19,7 +19,7 @@ const Nav = ({ siteTitle }) => (
         <Link class="nav-link " href="#">Team</Link>
         </li>
         <li className="nav-item">
-        <Link class="nav-link " href="#">Contact</Link>
+        <Link class="nav-link " href="https://wa.me/+6281249079096">Contact</Link>
         </li>
       </ul>
       

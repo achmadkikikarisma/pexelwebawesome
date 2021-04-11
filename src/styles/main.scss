@@ -67,10 +67,10 @@ $disabled:#F2F2F2;
     }
   }
 }
-@media (max-width: 600px) {
-  .logo{
+@media (max-width: 767px) {
+  .logo{ 
     padding-top: 1rem;
-    width: 20vw;
+    width: 18vw;
     height: auto;
   } 
   .nav-link{
@@ -96,16 +96,16 @@ $disabled:#F2F2F2;
   font-family: "Circe Light";
   font-size: 20px;
 }
-@media (max-width: 400px){
+@media (max-width: 576px){
   .tagline{
     font-family: "Circe Light";
     padding-top: 200px;
-    font-size: 24px;
+    font-size: 22px;
     line-height: normal;
   }
   .weare{
     font-family: "Circe Light";
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .contact-us{
@@ -149,7 +149,7 @@ $disabled:#F2F2F2;
   font-size: 16px;  
   line-height: 2rem;
 }
-@media (max-width: 700px){
+@media (max-width: 1024px){
   .team2{
     position: relative;
     width: 100%;
@@ -157,15 +157,16 @@ $disabled:#F2F2F2;
     align-items: center;
   }
   .title{
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Circe Regular";
     text-align: center;
+    line-height: 2rem;
   }
   .team2-text{
     font-family: "Circe Light";
     text-align: left;
-    font-size: 14px;  
-    line-height: 2rem;
+    font-size: 12px;  
+    line-height: 1.5rem;
     text-align: center;
   }
 
@@ -223,12 +224,12 @@ $disabled:#F2F2F2;
   }
   .description-service{
     font-family: "Circe Light";
-    line-height: 2rem;
+    line-height: 1.5rem;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
   }
   .title-desc{
-    font-size: 14px;
+    font-size: 12px;
     padding-bottom: 10% ;
     font-family: "Circe Light";
     text-align: center;
@@ -290,7 +291,7 @@ $disabled:#F2F2F2;
   .process-desc{
     color: #9B9B9B;
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     font-family: "Circe Light";
   }
   .description-process{
@@ -337,7 +338,7 @@ $disabled:#F2F2F2;
   }
   .team-desc-1{
     font-family: "Circe Light";
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 5%;
   }
 }
@@ -393,6 +394,7 @@ $disabled:#F2F2F2;
     color: $secondary;
     text-decoration: none;
     font-family: "Circe Light";
+    font-size: 12px;
     
     &:hover{
       color: $secondary;
@@ -405,21 +407,22 @@ $disabled:#F2F2F2;
     background-color: $primary;
     color: $secondary;
   }
+@media (max-width: 768px){
   .copy-right{
     font-family: "Circe Light";
     text-decoration: none;
     color: $secondary;
     padding-top: 100px;
     width: 100px;
+    font-size: 12px;
     &:hover{
       color: $secondary;
       text-decoration: none;
     }
   }
-  .footer-row{
-    margin: 0px;
-  }
 }
+}
+
 
 @media (min-width: 768px) { 
   .col-footer-mobile{

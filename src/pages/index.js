@@ -70,9 +70,7 @@ const IndexPage = () => (
     <center>
     <img className="icon-services" src={development}></img>
     <h6 className="title-service">Development</h6></center>
-    <p className="description-service">Design, Build, Testing,
-Websites, Web Apps, Mobile Apps,
-MVP & Continuous Development</p>
+    <p className="description-service">Design, Build, Testing,Websites, Web Apps, Mobile Apps,MVP & Continuous Development</p>
     </div>
     <div className="col-sm">
     <center>
@@ -102,17 +100,17 @@ MVP & Continuous Development</p>
     </div><div class="col">
     <img className="icon-process" src={development_icon}></img>
     <h6 className="title-process-1">Development</h6>
-    <p className="description-process">We analyze requirment and prepare the budget, team, and technical documentation</p>
+    <p className="description-process">Developer transform design into a full featured, responsive application that work on all supported deveice</p>
     </div>
     <div class="col">
     <img className="icon-process" src={testing_icon}></img>
     <h6 className="title-process-1">Usabillity Testing</h6>
-    <p className="description-process">We analyze requirment and prepare the budget, team, and technical documentation</p>
+    <p className="description-process">We testing understand how real users interact with your product and to improve the product based on the results.</p>
     </div>
     <div class="col">
     <img className="icon-process" src={deliverables_icon}></img>
     <h6 className="title-process-1">Deliverables File</h6>
-    <p className="description-process">We analyze requirment and prepare the budget, team, and technical documentation</p>
+    <p className="description-process">We will send all resource and commercial use everything after got full payment</p>
     </div>
 </div>
 
